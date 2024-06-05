@@ -31,11 +31,13 @@ local settings = {
         title = "Basic Commands",
         margin = 5,
         content = {
+            { " File Browser", "Neotree ~/", " <leader>e" },
+            { " New File", "lua require'startup'.new_file()", "<leader>nf" },
             { " Find File", "Telescope find_files", "<leader>ff" },
             { " Recent Files", "Telescope oldfiles", "<leader>of" },
-            { " File Browser", "Neotree ~/", "<leader>e" },
+{-------------------},
             { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
-            { " New File", "lua require'startup'.new_file()", "<leader>nf" },
+
         },
         highlight = "String",
         default_color = "",
