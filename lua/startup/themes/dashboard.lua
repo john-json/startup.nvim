@@ -35,7 +35,7 @@ local settings = {
             { " New File", "lua require'startup'.new_file()", "<leader>nf" },
             { " Find File", "Telescope find_files", "<leader>ff" },
             { " Recent Files", "Telescope oldfiles", "<leader>of" },
-{-------------------},
+            
             { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
 
         },
