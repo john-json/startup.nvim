@@ -74,7 +74,7 @@ local settings = {
         open_help = "?",
     },
     colors = {
-        background = "#1f2227",
+        background = "#688e89",
         folded_section = "#56b6c2",
     },
     parts = { "header", "body", "footer" },
