@@ -23,7 +23,7 @@ local settings = {
                                                        
         },
         highlight = "Statement",
-        default_color = "",
+        default_color = "#ae655f",
         oldfiles_amount = 0,
     },
     -- name which will be displayed and command
