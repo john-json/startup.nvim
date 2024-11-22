@@ -6,16 +6,14 @@ local settings = {
         align = "center",
         fold_section = false,
         title = "Title",
-        margin = 5,
+        margin = 1,
         content = {
         "", "", "", "", "", "",
         [[ _                  _        ]],
         [[|_|_____    _ _ ___|_|___ ___]],
         [[| |     |  | | |_ -| |   | . |]],
         [[|_|_|_|_|  |___|___|_|_|_|_  |]],
-        [[                         |___|]]
-
-                                                       
+        [[                         |___|]]                                         
         },
         highlight = "Statement",
         default_color = "#e5b03f",
