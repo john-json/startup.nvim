@@ -74,6 +74,6 @@ local settings = {
         background = "#1c1c1c",
         folded_section = "#ae655f",
     },
-    parts = { "header", "body", "footer" },
+    parts = { "header",  "header", "body", "footer" },
 }
 return settings
