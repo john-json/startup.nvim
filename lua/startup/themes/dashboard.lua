@@ -1,6 +1,29 @@
 local settings = {
     -- every line should be same width without escaped \
-    header = {
+    title = {
+        type = "text",
+        oldfiles_directory = false,
+        align = "center",
+        fold_section = false,
+        title = "Title",
+        margin = 5,
+        content = {
+        "", "", "", "", "", "",
+        [[                                       ]],
+        [[▄▄▄▄  ▄   ▄ ▄ ▄▄▄▄      ▗▖    ■  ▄   ▄ ]],
+        [[█   █ █   █ ▄ █ █ █     ▐▌ ▗▄▟▙▄▖█ ▄ █ ]],
+        [[█   █  ▀▄▀  █ █   █     ▐▛▀▚▖▐▌  █▄█▄█ ]],
+        [[            █           ▐▙▄▞▘▐▌        ]],
+        [[                             ▐▌        ]],
+        [[                                       ]]
+
+                                                       
+        },
+        highlight = "Statement",
+        default_color = "#e5b03f",
+        oldfiles_amount = 0,
+    },
+        header = {
         type = "text",
         oldfiles_directory = false,
         align = "center",
@@ -74,6 +97,6 @@ local settings = {
         background = "#1c1c1c",
         folded_section = "#ae655f",
     },
-    parts = { "header",  "header", "body", "footer" },
+    parts = { "title",  "header", "body", "footer" },
 }
 return settings
