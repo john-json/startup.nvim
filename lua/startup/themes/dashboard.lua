@@ -40,7 +40,7 @@ local settings = {
 
         },
         highlight = "String",
-        default_color = "",
+        default_color = "#3c3c3c",
         oldfiles_amount = 0,
     },
     footer = {
@@ -50,9 +50,9 @@ local settings = {
         fold_section = false,
         title = "Footer",
         margin = 5,
-        content = {os.date("%A %b.%d")},
+        content = {os.date("%a %b.%d")},
         highlight = "Number",
-        default_color = "",
+        default_color = "#c4c6bc",
         oldfiles_amount = 0,
     },
 
@@ -71,7 +71,7 @@ local settings = {
         open_help = "?",
     },
     colors = {
-        background = "#2d2e2f",
+        background = "#1c1c1c",
         folded_section = "#ae655f",
     },
     parts = { "header", "body", "footer" },
