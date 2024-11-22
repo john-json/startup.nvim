@@ -43,18 +43,18 @@ local settings = {
         default_color = "#1c1c1c",
         oldfiles_amount = 0,
     },
-    footer = {
-        type = "text",
-        oldfiles_directory = false,
-        align = "center",
-        fold_section = false,
-        title = "Footer",
-        margin = 5,
-        content = {os.date("%a %b.%d")},
-        highlight = "Number",
-        default_color = "#c4c6bc",
-        oldfiles_amount = 0,
-    },
+  --  footer = {
+    --    type = "text",
+    --    oldfiles_directory = false,
+   --     align = "center",
+    --    fold_section = false,
+   --     title = "Footer",
+   --     margin = 5,
+   --     content = {os.date("%a %b.%d")},
+   --     highlight = "Number",
+    --    default_color = "#c4c6bc",
+   --     oldfiles_amount = 0,
+  --  },
 
     options = {
         mapping_keys = true,
@@ -74,6 +74,6 @@ local settings = {
         background = "#1c1c1c",
         folded_section = "#ae655f",
     },
-    parts = { "header", "body", "footer" },
+    parts = { "header", "body" },
 }
 return settings
