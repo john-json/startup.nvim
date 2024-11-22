@@ -40,7 +40,7 @@ local settings = {
 
         },
         highlight = "String",
-        default_color = "#3c3c3c",
+        default_color = "#1c1c1c",
         oldfiles_amount = 0,
     },
     footer = {
