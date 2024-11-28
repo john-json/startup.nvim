@@ -35,8 +35,8 @@ local settings = {
         margin = 5,
         content = {
             { " Find File", "Telescope find_files", "<leader>ff" },
-            { " File Explorer", "<cmd>Neotree toggle <cr>", "<leader>e"},
-            { "󰍉 Find Word", "<leader>e", "<cmd>Neotree toggle <cr>" },
+            { " File Explorer", "<leader>e", "<cmd>Neotree toggle <cr>"},
+            { "󰍉 Find Word", "Telescope find_word", "<leader>fw"  },
             { " Recent", "Telescope oldfiles", "<leader>of" },
             { " New File", "lua require'startup'.new_file()", "<leader>nf" },
 
