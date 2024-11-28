@@ -16,12 +16,13 @@ local settings = {
         [[█   █  ▀▄▀  █ █   █     ▐▛▀▚▖▐▌  █▄█▄█ ]],
         [[            █           ▐▙▄▞▘▐▌        ]],
         [[                             ▐▌        ]],
+        [[                                       ]],
         [[                                       ]]
 
                                                        
         },
         highlight = "Statement",
-        default_color = "#e5b03f",
+        default_color = "#ffffff",
         oldfiles_amount = 0,
     },
     -- name which will be displayed and command
