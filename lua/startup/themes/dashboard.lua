@@ -8,7 +8,6 @@ local settings = {
         title = "Header",
         margin = 5,
         content = {
-        "", "", "", "", "", "",
         [[                                       ]],
         [[                                       ]],
         [[▄▄▄▄  ▄   ▄ ▄ ▄▄▄▄      ▗▖    ■  ▄   ▄ ]],
@@ -34,12 +33,12 @@ local settings = {
         title = "Basic Commands",
         margin = 5,
         content = {
-            { " Find File","Telescope find_files", "<leader>ff" },
-            { "󰍉 Find Word","Telescope find_word", "<leader>fw"  },
-            { " Recent","Telescope oldfiles", "<leader>of" },
-            { " New File","lua require'startup'.new_file()", "<leader>nf" },
-
-        },
+            { " Find File", "Telescope find_files", "<leader>ff" },
+            { "󰍉 Find Word", "Telescope live_grep", "<leader>lg" },
+            { " Recent Files", "Telescope oldfiles", "<leader>of" },
+            { " File Browser", "Telescope file_browser", "<leader>fb" },
+            { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
+            { " New File", "lua require'startup'.new_file()", "<leader>nf" },
         highlight = "String",
         default_color = "#1c1c1c",
         oldfiles_amount = 0,
