@@ -36,7 +36,7 @@ local settings = {
         content = {
             { " Find File", "Telescope find_files", "<leader>ff" },
             { " File Explorer", "<cmd>Neotree toggle <cr>", "<leader>e"},
-            { "󰍉 Find Word", "Telescope live_grep", "<leader>lg" },
+            { "󰍉 Find Word", "<leader>e", "<cmd>Neotree toggle <cr>" },
             { " Recent", "Telescope oldfiles", "<leader>of" },
             { " New File", "lua require'startup'.new_file()", "<leader>nf" },
 
