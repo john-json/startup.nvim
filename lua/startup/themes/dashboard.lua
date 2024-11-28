@@ -16,9 +16,7 @@ local settings = {
         [[            █           ▐▙▄▞▘▐▌        ]],
         [[                             ▐▌        ]],
         [[                                       ]],
-        [[                                       ]]
-
-                                                       
+        [[                                       ]]                                         
         },
         highlight = "Statement",
         default_color = "#ffffff",
@@ -39,6 +37,7 @@ local settings = {
             { " File Browser", "Telescope file_browser", "<leader>fb" },
             { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
             { " New File", "lua require'startup'.new_file()", "<leader>nf" },
+        },
         highlight = "String",
         default_color = "#1c1c1c",
         oldfiles_amount = 0,
