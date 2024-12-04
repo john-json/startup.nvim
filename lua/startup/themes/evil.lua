@@ -8,7 +8,7 @@ local settings = {
         margin = 5,
         content = require("startup.headers").hydra_header,
         highlight = "Statement",
-        default_color = "#e0b880",
+        default_color = ",
         oldfiles_amount = 0,
     },
     header_2 = {
@@ -20,8 +20,7 @@ local settings = {
         margin = 5,
         content = require("startup.functions").quote(),
         highlight = "Constant",
-        highlight = "TSString",
-        default_color = "#FFFFFF",
+        default_color = "",
         oldfiles_amount = 0,
     },
     -- name which will be displayed and command
@@ -39,8 +38,8 @@ local settings = {
             { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
             { " New File", "lua require'startup'.new_file()", "<leader>nf" },
         },
-        highlight = "TSString",
-        default_color = "#FFFFFF",
+        highlight = "String",
+        default_color = "",
         oldfiles_amount = 0,
     },
     body_2 = {
@@ -51,8 +50,8 @@ local settings = {
         title = "Oldfiles of Directory",
         margin = 5,
         content = {},
-        highlight = "TSString",
-        default_color = "#FFFFFF",
+        highlight = "String",
+        default_color = "",
         oldfiles_amount = 5,
     },
     footer = {
@@ -63,8 +62,8 @@ local settings = {
         title = "Oldfiles",
         margin = 5,
         content = { "startup.nvim" },
-        highlight = "TSString",
-        default_color = "#FFFFFF",
+        highlight = "String",
+        default_color = "",
         oldfiles_amount = 5,
     },
 
@@ -80,8 +79,8 @@ local settings = {
         fold_section = false,
         title = "",
         margin = 5,
-        highlight = "TSString",
-        default_color = "#FFFFFF",
+        highlight = "String",
+        default_color = "",
         oldfiles_amount = 10,
     },
 
@@ -93,8 +92,8 @@ local settings = {
         fold_section = false,
         title = "",
         margin = 5,
-        highlight = "TSString",
-        default_color = "#FFFFFF",
+        highlight = "String",
+        default_color = "",
         oldfiles_amount = 10,
     },
 
