@@ -8,7 +8,7 @@ local settings = {
         margin = 5,
         content = require("startup.headers").hydra_header,
         highlight = "Statement",
-        default_color = "",
+        default_color = "#e0b880",
         oldfiles_amount = 0,
     },
     header_2 = {
