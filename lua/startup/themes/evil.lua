@@ -108,8 +108,8 @@ local settings = {
         paddings = { 2, 2, 2, 2, 2, 2, 2 },
     },
     colors = {
-        background = "#1f2227",
-        folded_section = "#56b6c2",
+        background = "#1c1c18",
+        folded_section = "#ffffff",
     },
     parts = {
         "header",
